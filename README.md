@@ -162,11 +162,9 @@ ollama list
 ### 2. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/sentinel-ai.git
+git clone https://github.com/dhyey-netizen/sentinel-ai.git
 cd sentinel-ai
 ```
-
-Replace `YOUR_USERNAME` with the GitHub account that hosts this repository.
 
 ### 3. Create a Python environment
 
