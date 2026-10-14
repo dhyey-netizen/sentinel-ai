@@ -78,8 +78,8 @@ Interview prep: [docs/interview-guide.md](docs/interview-guide.md)
 Model size: `qwen3:8b` (~5 GB Q4) technically loads in 6 GB but leaves little room for the KV cache
 and slows down sharply; start with 4b and benchmark 8b yourself if you want.
 
-## Setup (Zorin OS / Ubuntu)
-
+## Setup (Make Sure To Check Your OS i.e (Windows,Linux,Mac) and Use Commands Accordingly 
+#This Commands are for Linux (Ubuntu/Zorin/Mint)
 ```bash
 # 1. Ollama (local inference) and the model
 curl -fsSL https://ollama.com/install.sh | sh
