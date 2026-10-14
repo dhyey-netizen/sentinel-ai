@@ -1,0 +1,11 @@
+2026-03-17T09:00:00.000Z INFO  deploy release 2.4.1 rolled out to all checkout pods
+2026-03-17T09:02:11.000Z INFO  checkout request_id=req-5001 POST /checkout started
+2026-03-17T09:02:11.040Z ERROR checkout request_id=req-5001 NullPointerException in CartService.applyDiscount (discount=null)
+2026-03-17T09:02:12.000Z ERROR api-gateway request_id=req-5001 HTTP 500 returned for POST /checkout
+2026-03-17T09:02:30.000Z INFO  checkout request_id=req-5002 POST /checkout started
+2026-03-17T09:02:30.030Z ERROR checkout request_id=req-5002 NullPointerException in CartService.applyDiscount (discount=null)
+2026-03-17T09:02:31.000Z ERROR api-gateway request_id=req-5002 HTTP 500 returned for POST /checkout
+2026-03-17T09:03:05.000Z ERROR checkout request_id=req-5003 NullPointerException in CartService.applyDiscount (discount=null)
+2026-03-17T09:03:06.000Z INFO  db-pool HikariPool-1 pool at 20% (active=4, idle=16, waiting=0)
+2026-03-17T09:03:40.000Z ERROR checkout request_id=req-5004 NullPointerException in CartService.applyDiscount (discount=null)
+2026-03-17T09:03:41.000Z WARN  metrics error_rate_checkout=38% (baseline 0.4%)

@@ -1,0 +1,9 @@
+2026-03-15T08:00:01.000Z INFO  checkout request_id=req-3001 POST /checkout started
+2026-03-15T08:00:06.100Z ERROR orders-repo request_id=req-3001 SQL timeout: statement exceeded 5000ms on orders_db (SELECT * FROM orders WHERE customer_id=?)
+2026-03-15T08:00:07.000Z INFO  checkout request_id=req-3002 POST /checkout started
+2026-03-15T08:00:12.050Z ERROR orders-repo request_id=req-3002 SQL timeout: statement exceeded 5000ms on orders_db (SELECT * FROM orders WHERE customer_id=?)
+2026-03-15T08:00:13.000Z WARN  orders-db slow query log: full table scan on orders (rows_examined=4812033)
+2026-03-15T08:00:14.000Z ERROR checkout request_id=req-3001 Order lookup failed after DB timeout
+2026-03-15T08:00:20.100Z ERROR orders-repo request_id=req-3003 SQL timeout: statement exceeded 5000ms on orders_db (SELECT * FROM orders WHERE customer_id=?)
+2026-03-15T08:00:21.000Z INFO  db-pool HikariPool-1 pool at 40% (active=8, idle=12, waiting=0)
+2026-03-15T08:00:25.400Z ERROR orders-repo request_id=req-3004 SQL timeout: statement exceeded 5000ms on orders_db (SELECT * FROM orders WHERE customer_id=?)

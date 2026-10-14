@@ -1,0 +1,10 @@
+2026-03-16T14:30:00.000Z INFO  checkout request_id=req-4001 charging card via payment-gateway
+2026-03-16T14:30:10.020Z ERROR payment-client request_id=req-4001 upstream payment-gateway timed out after 10000ms (attempt 1/3)
+2026-03-16T14:30:20.050Z ERROR payment-client request_id=req-4001 upstream payment-gateway timed out after 10000ms (attempt 2/3)
+2026-03-16T14:30:30.080Z ERROR payment-client request_id=req-4001 upstream payment-gateway timed out after 10000ms (attempt 3/3)
+2026-03-16T14:30:30.100Z ERROR checkout request_id=req-4001 Payment failed: gateway unavailable
+2026-03-16T14:30:31.000Z INFO  checkout request_id=req-4002 charging card via payment-gateway
+2026-03-16T14:30:41.020Z ERROR payment-client request_id=req-4002 upstream payment-gateway timed out after 10000ms (attempt 1/3)
+2026-03-16T14:30:45.000Z WARN  circuit-breaker payment-gateway failure rate 94% over last 60s
+2026-03-16T14:30:46.000Z INFO  db-pool HikariPool-1 pool at 15% (active=3, idle=17, waiting=0)
+2026-03-16T14:30:47.000Z INFO  search request_id=req-4003 GET /search completed in 38ms

@@ -1,0 +1,9 @@
+2026-03-18T11:00:00.000Z INFO  orders-db health check OK latency=4ms
+2026-03-18T11:00:05.000Z ERROR checkout request_id=req-6001 database timeout while saving order
+2026-03-18T11:00:06.000Z INFO  orders-db health check OK latency=5ms
+2026-03-18T11:00:09.000Z ERROR checkout request_id=req-6002 cache lookup failed: redis connection reset
+2026-03-18T11:00:10.000Z INFO  db-pool HikariPool-1 pool at 10% (active=2, idle=18, waiting=0)
+2026-03-18T11:00:14.000Z ERROR checkout request_id=req-6003 database timeout while saving order
+2026-03-18T11:00:15.000Z INFO  orders-db health check OK latency=4ms
+2026-03-18T11:00:20.000Z ERROR checkout request_id=req-6004 cache lookup failed: redis connection reset
+2026-03-18T11:00:21.000Z WARN  checkout request_id=req-6005 slow response 8200ms

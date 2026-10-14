@@ -1,0 +1,11 @@
+2026-03-14T10:14:58.100Z INFO  checkout request_id=req-2001 POST /checkout started user=cust-17
+2026-03-14T10:15:01.220Z WARN  db-pool HikariPool-1 pool at 90% (active=18, idle=2, waiting=5)
+2026-03-14T10:15:10.300Z WARN  db-pool HikariPool-1 pool at 100% (active=20, idle=0, waiting=23)
+2026-03-14T10:15:28.450Z ERROR checkout request_id=req-2001 Connection is not available, request timed out after 30000ms (active=20, idle=0, waiting=41)
+2026-03-14T10:15:29.010Z ERROR checkout request_id=req-2002 Connection is not available, request timed out after 30000ms (active=20, idle=0, waiting=44)
+2026-03-14T10:15:30.120Z ERROR checkout request_id=req-2003 Connection is not available, request timed out after 30000ms (active=20, idle=0, waiting=47)
+2026-03-14T10:15:30.500Z ERROR api-gateway request_id=req-2001 HTTP 503 returned for POST /checkout
+2026-03-14T10:15:31.800Z ERROR checkout request_id=req-2004 Connection is not available, request timed out after 30000ms (active=20, idle=0, waiting=52)
+2026-03-14T10:15:32.000Z INFO  db-pool HikariPool-1 leak detection: connection held 61s by OrderRepository.saveOrder
+2026-03-14T10:15:33.900Z ERROR checkout request_id=req-2005 Connection is not available, request timed out after 30000ms (active=20, idle=0, waiting=55)
+2026-03-14T10:15:34.000Z INFO  search request_id=req-2006 GET /search completed in 41ms
